@@ -4,6 +4,11 @@
 	font-family: 'Libre Baskerville';
 }
 
+.navbar{
+	padding-bottom: 0%;
+	margin-bottom: 0%;
+}
+
 li{
 	font-family: 'Libre Baskerville';
 
@@ -12,6 +17,10 @@ li{
 .container{
 	background-color: rgb(236, 236, 236);
 	width: 100%;
+}
+
+.cecilystyling, .col-md-8, .col-md-7{
+	background-color: #fff;
 }
 
 /*About Me*/
@@ -93,6 +102,11 @@ span{
 	left: 40px;
 }
 
+.panel{
+	margin-top: 5%;
+	overflow: visible;
+}
+
 /*Portfolio Section*/
 #portfoliohead{
 	color: #4aaaa5;
@@ -117,9 +131,6 @@ span{
 #cat1, #cat2, #cat3, #cat4, #cat5{
 	width: 300px;
 	height: 300px;
-}
-
-#cat3, #cat4, #cat5{
 	padding-top: 5%;
 }
 
